@@ -1,3 +1,10 @@
+#java
+*.class
+
+#visual studio
+*.ipch
+*.db
+
 # Prerequisites
 *.d
 
@@ -30,3 +37,7 @@
 *.exe
 *.out
 *.app
+/c++/Linux/first_linux_cplus/Firstlinux/.vs
+/c++/Linux/first_linux_cplus/Firstlinux/Firstlinux/obj
+/c++/Linux/FirstCMakeProject/.vs
+/c++/Linux/FirstCMakeProject/out

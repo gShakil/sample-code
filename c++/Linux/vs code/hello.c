@@ -1,0 +1,9 @@
+#include "hello.h"
+#include <vector>
+void print_hello()
+{
+    std::vector<int> vint;
+    printf("æ»≥Á«œººø‰\n");
+
+
+}
