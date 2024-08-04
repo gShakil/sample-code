@@ -1,0 +1,11 @@
+const a = 5;
+const b = 2; 
+let myName = "kkk"; // let: 변경 가능한 변수 선언
+
+console.log(a + b);
+console.log(a * b);
+console.log(a / b);
+console.log("hello " + myName)
+
+myName = "kkksw";
+console.log("your new name is " + myName);

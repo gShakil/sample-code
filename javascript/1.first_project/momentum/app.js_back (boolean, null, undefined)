@@ -1,0 +1,8 @@
+const amIFat = true;
+const amIFat2 = null; // 값이 존재하지 않음
+let something;
+
+console.log(amIFat, );
+console.log(amIFat, amIFat2);
+console.log(something); //undefined. 메모리 안에 존재. 값은 없음0
+
