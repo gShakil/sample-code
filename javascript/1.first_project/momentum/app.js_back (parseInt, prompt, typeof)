@@ -1,0 +1,11 @@
+const age2 = parseInt(prompt("How old are you ?"));
+console.log(age2," is ", typeof age2); // age2: number
+
+const age = prompt("How old are you ?"); // Stop java script. veeery old style
+
+parseInt(age); // string to int
+
+console.log(age," is ", typeof age); // age: string
+console.log(parseInt(age)," is ", typeof parseInt(age)); //12 ' is ' 'number'
+
+
