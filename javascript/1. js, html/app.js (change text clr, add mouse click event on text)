@@ -4,6 +4,7 @@ console.dir(title);
 title.style.color = "blue" // text color -> blue
 
 //Event
+//console.dir(title); // h1 -> on~~~ : event list
 function handleTitleClick(){
     console.log("title was clicked!");
 }

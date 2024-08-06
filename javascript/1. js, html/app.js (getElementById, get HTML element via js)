@@ -1,0 +1,7 @@
+const title = document.getElementById("title");
+
+//console.dir(title);
+title.innerText = " Got you!"; // html의 title 변경
+
+console.log(title.className);
+console.log(title.innerText);

@@ -1,0 +1,54 @@
+/*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Momentum</title>
+</head>
+<body>
+    <!--<h1 autofocus class ="hello" id="title">Grab me!</h1>-->
+    <div class ="hello">
+        <h1>Grab me!1</h1>
+    </div>
+    <div class ="hello">
+        <h1>Grab me!2</h1>
+    </div>
+    <div class ="hello">
+        <h1>Grab me!3</h1>
+    </div>
+    <script src = "app.js"></script>
+</body>
+</html>
+*/
+
+const title = document.getElementsByTagName("h1");
+console.log("get from getElementsByTagName: ");
+console.log(title);
+
+
+/*
+.hello: class hello
+*/
+const title1 = document.querySelector("div.hello:first-child h1"); // find from class "hello" -> in div -> first child "h1"
+
+const title2 = document.querySelector(".hello h1"); // CSS selector. only return first "1" element.
+const title3 = document.querySelector("div h1"); // CSS selector. only return first "1" element.
+// title2 === title3
+console.log("get from querySelector: ");
+console.log(title2);
+console.log(title3);
+
+const All = document.querySelectorAll(".hello h1");
+console.log(All);
+
+const single = document.querySelectorAll(".hello h1:first-child");
+console.log(single);
+
+const FromID = document.querySelector("#hello h1"); // #hello: id
+const FromID2 = document.getElementsByClassName("hello");
+console.log(FromID);
+console.log(FromID2);
+
+title2.innerText = "Hello"; // Ok
