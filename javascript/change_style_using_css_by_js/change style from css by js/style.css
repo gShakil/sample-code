@@ -1,0 +1,21 @@
+body{
+    background-color: beige;
+}
+
+/*
+h1의 기본 색상 파란색
+transition: 서서히 변화
+*/
+h1{
+    color: cornflowerblue;  
+    transition:color .5s ease-in-out
+}
+
+/*active란 클래스 생성 후 색상 부여*/
+.clicked {
+    color:tomato;
+}
+
+.sexy-font{
+    font-family:'Courier New', Courier, monospace;
+}
