@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\examples\getting_started_2.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84AC18B3-9472-3C2F-B1C1-F253EF043894}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

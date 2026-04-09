@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e8565335-f69f-3d78-9d63-010ffdf9d9cb" DefaultStartup="true">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="doc/build-docs.vcxproj"/>
+		<BuildDependency Project="examples/complete_example.vcxproj"/>
+		<BuildDependency Project="examples/faster_data.vcxproj"/>
+		<BuildDependency Project="examples/from_readme.vcxproj"/>
+		<BuildDependency Project="examples/getting_started_1.vcxproj"/>
+		<BuildDependency Project="examples/getting_started_2.vcxproj"/>
+		<BuildDependency Project="src/pqxx.vcxproj"/>
+		<BuildDependency Project="examples/quick_example.vcxproj"/>
+		<BuildDependency Project="test/runner.vcxproj"/>
+		<BuildDependency Project="examples/simple_queries.vcxproj"/>
+	</Project>
+	<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8b890bcf-9652-3723-b7ec-39f214fa37f7">
+		<BuildDependency Project="ALL_BUILD.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="PACKAGE.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6b30ffd8-1ad2-37aa-9ba3-8ef7e2514e90">
+		<BuildDependency Project="ALL_BUILD.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1491795f-78b9-3898-8cc4-1061954b09db"/>
+	<Project Path="doc/build-docs.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2e1d9b8e-ec73-31e8-bc80-a70b04592a18">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="examples/complete_example.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1eb06f17-9330-3712-802b-d6c1cdcd119e">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="src/pqxx.vcxproj"/>
+	</Project>
+	<Project Path="examples/faster_data.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="d394d866-ff0f-3cb7-a4de-7fd534e2dd18">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="src/pqxx.vcxproj"/>
+	</Project>
+	<Project Path="examples/from_readme.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="ce39bbc9-e95d-3411-9d49-4074ee92912b">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="src/pqxx.vcxproj"/>
+	</Project>
+	<Project Path="examples/getting_started_1.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8caeb4b1-14dc-34fd-a897-5fdbf9099626">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="src/pqxx.vcxproj"/>
+	</Project>
+	<Project Path="examples/getting_started_2.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a18c4c37-fcbe-3943-a9e6-89e312fd3697">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="src/pqxx.vcxproj"/>
+	</Project>
+	<Project Path="src/pqxx.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0794bddf-3d19-3df6-a578-fd316c0cdeaf">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="examples/quick_example.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c1a26c09-a405-3368-979c-8d754c9301a3">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="src/pqxx.vcxproj"/>
+	</Project>
+	<Project Path="test/runner.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="ec94f861-98e2-362e-8b94-9f620f6d57a7">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="src/pqxx.vcxproj"/>
+	</Project>
+	<Project Path="examples/simple_queries.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c236353d-1c97-38a5-bef5-f8f103530741">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="src/pqxx.vcxproj"/>
+	</Project>
+</Solution>

@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E8565335-F69F-3D78-9D63-010FFDF9D9CB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-source/libpqxx-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-source/libpqxx-master -BD:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-build --check-stamp-file D:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPostgreSQL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Templates\CPackConfig.cmake.in;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\4.3.0\CMakeCXXCompiler.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\4.3.0\CMakeRCCompiler.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\4.3.0\CMakeSystem.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\include\pqxx\config_cmake.h.in;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\cmake\config.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\cmake\libpqxx-config.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\cmake\pqxx_cxx_feature_checks.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_ASSUME.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_CHARCONV_FLOAT.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_CXA_DEMANGLE.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_GCC_PURE.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_GCC_VISIBILITY.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_MULTIDIM.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_POLL.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_RANGES.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_SLEEP_FOR.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_STRERROR_R.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_STRERROR_S.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_TYPE_DISPLAY.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_YEAR_MONTH_DAY.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_ZARGS.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\stacktrace_support.cxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-source/libpqxx-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-source/libpqxx-master -BD:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-build --check-stamp-file D:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPostgreSQL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Templates\CPackConfig.cmake.in;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\4.3.0\CMakeCXXCompiler.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\4.3.0\CMakeRCCompiler.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\4.3.0\CMakeSystem.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\include\pqxx\config_cmake.h.in;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\cmake\config.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\cmake\libpqxx-config.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\cmake\pqxx_cxx_feature_checks.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_ASSUME.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_CHARCONV_FLOAT.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_CXA_DEMANGLE.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_GCC_PURE.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_GCC_VISIBILITY.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_MULTIDIM.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_POLL.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_RANGES.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_SLEEP_FOR.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_STRERROR_R.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_STRERROR_S.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_TYPE_DISPLAY.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_YEAR_MONTH_DAY.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_ZARGS.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\stacktrace_support.cxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-source/libpqxx-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-source/libpqxx-master -BD:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-build --check-stamp-file D:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPostgreSQL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Templates\CPackConfig.cmake.in;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\4.3.0\CMakeCXXCompiler.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\4.3.0\CMakeRCCompiler.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\4.3.0\CMakeSystem.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\include\pqxx\config_cmake.h.in;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\cmake\config.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\cmake\libpqxx-config.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\cmake\pqxx_cxx_feature_checks.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_ASSUME.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_CHARCONV_FLOAT.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_CXA_DEMANGLE.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_GCC_PURE.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_GCC_VISIBILITY.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_MULTIDIM.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_POLL.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_RANGES.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_SLEEP_FOR.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_STRERROR_R.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_STRERROR_S.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_TYPE_DISPLAY.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_YEAR_MONTH_DAY.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_ZARGS.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\stacktrace_support.cxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-source/libpqxx-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-source/libpqxx-master -BD:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-build --check-stamp-file D:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPostgreSQL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Templates\CPackConfig.cmake.in;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\4.3.0\CMakeCXXCompiler.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\4.3.0\CMakeRCCompiler.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\4.3.0\CMakeSystem.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\include\pqxx\config_cmake.h.in;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\cmake\config.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\cmake\libpqxx-config.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\cmake\pqxx_cxx_feature_checks.cmake;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_ASSUME.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_CHARCONV_FLOAT.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_CXA_DEMANGLE.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_GCC_PURE.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_GCC_VISIBILITY.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_MULTIDIM.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_POLL.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_RANGES.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_SLEEP_FOR.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_STRERROR_R.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_STRERROR_S.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_TYPE_DISPLAY.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_YEAR_MONTH_DAY.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\PQXX_HAVE_ZARGS.cxx;D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\config-tests\stacktrace_support.cxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\ZERO_CHECK.vcxproj">
+      <Project>{1491795F-78B9-3898-8CC4-1061954B09DB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\doc\build-docs.vcxproj">
+      <Project>{2E1D9B8E-EC73-31E8-BC80-A70B04592A18}</Project>
+      <Name>build-docs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\examples\complete_example.vcxproj">
+      <Project>{1EB06F17-9330-3712-802B-D6C1CDCD119E}</Project>
+      <Name>complete_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\examples\faster_data.vcxproj">
+      <Project>{D394D866-FF0F-3CB7-A4DE-7FD534E2DD18}</Project>
+      <Name>faster_data</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\examples\from_readme.vcxproj">
+      <Project>{CE39BBC9-E95D-3411-9D49-4074EE92912B}</Project>
+      <Name>from_readme</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\examples\getting_started_1.vcxproj">
+      <Project>{8CAEB4B1-14DC-34FD-A897-5FDBF9099626}</Project>
+      <Name>getting_started_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\examples\getting_started_2.vcxproj">
+      <Project>{A18C4C37-FCBE-3943-A9E6-89E312FD3697}</Project>
+      <Name>getting_started_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\src\pqxx.vcxproj">
+      <Project>{0794BDDF-3D19-3DF6-A578-FD316C0CDEAF}</Project>
+      <Name>pqxx</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\examples\quick_example.vcxproj">
+      <Project>{C1A26C09-A405-3368-979C-8D754C9301A3}</Project>
+      <Name>quick_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\test\runner.vcxproj">
+      <Project>{EC94F861-98E2-362E-8B94-9F620F6D57A7}</Project>
+      <Name>runner</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\examples\simple_queries.vcxproj">
+      <Project>{C236353D-1C97-38A5-BEF5-F8F103530741}</Project>
+      <Name>simple_queries</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
