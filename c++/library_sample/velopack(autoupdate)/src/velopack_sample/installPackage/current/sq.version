@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<metadata>
+<id>velopack_sample</id>
+<title>velopack_sample</title>
+<description>velopack_sample</description>
+<authors>velopack_sample</authors>
+<version>1.0.1</version>
+<channel>win</channel>
+<mainExe>velopack_sample.exe</mainExe>
+<os>win</os>
+<rid>win</rid>
+<runtimeDependencies>vcredist142-x64</runtimeDependencies>
+<shortcutLocations>Desktop,StartMenuRoot</shortcutLocations>
+<shortcutAmuid>velopack.velopack_sample</shortcutAmuid>
+</metadata>
+</package>
