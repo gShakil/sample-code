@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\array.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\blob.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\connection.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\cursor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\encodings.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\errorhandler.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\except.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\field.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\largeobject.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\notification.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\params.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\pipeline.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\result.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\robusttransaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\row.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\sql_cursor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\strconv.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\stream_from.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\stream_to.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\subtransaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\time.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\transaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\transaction_base.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\types.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\util.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\wait.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84AC18B3-9472-3C2F-B1C1-F253EF043894}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

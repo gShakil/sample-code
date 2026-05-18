@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\CMakeFiles\9fd66c544cbd636729518b801fbcdd1d\build-docs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-source\libpqxx-master\doc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Study\git-sample_code\sample-code\c++\postgreSQL\libpqxx-build\doc\CMakeFiles\build-docs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2B5C7E77-269B-3675-A59A-39D7CB99F5EC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

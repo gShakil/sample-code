@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Momentum</title>
+</head>
+<body>
+    <form id="login-form" class="hidden">
+    <!-- <input type="text" placeholder="What is your name?"/> -->
+    <!-- input의 유효성 검사를 위해선 form 내부에 있어야 함-->
+    <!-- input을 form 안에 넣은 경우 엔터를 누를 때마다 form이 새로고침과 함께 자동으로 submit됌.  -->
+    <input 
+    required
+    maxlength="15"
+    type="text" 
+    placeholder="What is your name?"/>
+    <button>Log In</button>
+    </form>
+    <h2 id="clock">00:00</h2>
+    <h1 id="greeting" class="hidden"></h1>
+    <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required> 
+    </form>
+    <ul id="todo-list"></ul>
+<div id="quote">
+    <span>
+    </span>
+    <span>
+    </span>
+</div>
+    <a href="https://nomadcoders.co">Go to courses</a>
+    <script src = "js/greetings.js"></script>
+    <script src = "js/clock.js"></script>
+    <script src = "js/quotes.js"></script>
+    <script src = "js/backgound.js"></script>
+    <script src = "js/todo.js"></script>
+</body>
+</html>

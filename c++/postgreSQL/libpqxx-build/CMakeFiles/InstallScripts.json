@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-build/cmake_install.cmake",
+		"D:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-build/src/cmake_install.cmake",
+		"D:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-build/include/cmake_install.cmake",
+		"D:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-build/doc/cmake_install.cmake",
+		"D:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-build/test/cmake_install.cmake",
+		"D:/Study/git-sample_code/sample-code/c++/postgreSQL/libpqxx-build/examples/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
