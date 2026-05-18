@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{5BB70F6D-01EB-434B-B859-A7110AA407B0}</ProjectGuid>
+    <ProjectGuid>{E8A045EB-EB89-4C0A-A9DF-4EBC9C702E0F}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>stdThreadPoolEx</RootNamespace>
+    <RootNamespace>velopacksample</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,10 +115,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <LanguageStandard>Default</LanguageStandard>
+      <AdditionalIncludeDirectories>../Include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>../Lib_x64</AdditionalLibraryDirectories>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -166,11 +168,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../Include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../Lib_x64</AdditionalLibraryDirectories>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -187,13 +192,10 @@
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
-    <ClInclude Include="stdThreadPoolEx.h" />
-    <ClInclude Include="stdThreadPoolExDlg.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="ThreadPoolAssist.h" />
-    <ClInclude Include="ThreadPoolUsage.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-    </ClInclude>
+    <ClInclude Include="velopack_sample.h" />
+    <ClInclude Include="velopack_sampleDlg.h" />
+    <ClInclude Include="velopack_usage.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -202,21 +204,18 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="stdThreadPoolEx.cpp" />
-    <ClCompile Include="stdThreadPoolExDlg.cpp" />
-    <ClCompile Include="ThreadPoolAssist.cpp" />
-    <ClCompile Include="ThreadPoolUsage.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="velopack_sample.cpp" />
+    <ClCompile Include="velopack_sampleDlg.cpp" />
+    <ClCompile Include="velopack_usage.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="stdThreadPoolEx.rc" />
+    <ResourceCompile Include="velopacksample.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\stdThreadPoolEx.rc2" />
+    <None Include="res\velopacksample.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\stdThreadPoolEx.ico" />
+    <Image Include="res\velopack_sample.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

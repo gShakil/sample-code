@@ -41,7 +41,7 @@ namespace __ENF
 			if (stop_all) {
 				throw std::runtime_error("ThreadPool »ç¿ë ÁßÁöµÊ");
 			}
-			
+
 			using return_type = typename std::result_of<F(Args...)>::type;
 			auto job = std::make_shared<std::packaged_task<return_type()>>(
 				std::bind(std::forward<F>(f), std::forward<Args>(args)...));
