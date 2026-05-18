@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CLR_DOTNET/CLR_DOTNET.vcxproj" />
+  <Project Path="Wpf_CppCLI_Example/Wpf_CppCLI_Example.csproj" />
+</Solution>
