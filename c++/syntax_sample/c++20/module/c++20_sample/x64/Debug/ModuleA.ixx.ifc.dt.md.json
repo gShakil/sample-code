@@ -1,0 +1,11 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\예제프로젝트\\samplecode\\c++\\c++20_module(import, export)\\c++20_sample\\c++20_sample\\modulea.ixx",
+        "ProvidedModule": "ModuleA",
+        "ImportedModules": [],
+        "ImportedHeaderUnits": [
+            "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include\\iostream"
+        ]
+    }
+}

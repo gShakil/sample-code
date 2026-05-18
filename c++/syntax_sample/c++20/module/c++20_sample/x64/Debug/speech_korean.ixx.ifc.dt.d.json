@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\예제프로젝트\\samplecode\\c++\\c++20_module(import, export)\\c++20_sample\\c++20_sample\\speech_korean.ixx",
+        "ProvidedModule": "speech:korean",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": [
+            {
+                "Header": "c:\\program files (x86)\\microsoft visual studio\\2019\\professional\\vc\\tools\\msvc\\14.29.30133\\include\\iostream",
+                "BMI": "D:\\예제프로젝트\\samplecode\\c++\\c++20_module(import, export)\\c++20_sample\\c++20_sample\\x64\\Debug\\iostream.ifc.dt"
+            }
+        ]
+    }
+}

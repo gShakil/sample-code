@@ -1,0 +1,12 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\예제프로젝트\\samplecode\\c++\\c++20_module(import, export)\\c++20_sample\\c++20_sample\\speech.ixx",
+        "ProvidedModule": "speech",
+        "ImportedModules": [
+            "speech:english",
+            "speech:korean"
+        ],
+        "ImportedHeaderUnits": []
+    }
+}
