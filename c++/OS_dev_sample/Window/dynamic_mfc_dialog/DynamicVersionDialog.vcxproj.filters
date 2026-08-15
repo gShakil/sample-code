@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="dynamic">
+      <UniqueIdentifier>{98fcb93d-bd6d-4abd-862f-97540157b346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Button">
+      <UniqueIdentifier>{0186c3e8-f37b-4f25-909b-562df964fce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dynamic\Parent">
+      <UniqueIdentifier>{5a6697cf-340c-4af7-b144-c265edcb162c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicVersionDialog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="HoverButton.h">
+      <Filter>Button</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DevVersionDialog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DynDialogEx.h">
+      <Filter>dynamic\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="DynDialogItemEx.h">
+      <Filter>dynamic\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="ListDynDialogEx.h">
+      <Filter>dynamic\Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicProgressbarDialog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DevProgressbarDialog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicVersionDialog.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HoverButton.cpp">
+      <Filter>Button</Filter>
+    </ClCompile>
+    <ClCompile Include="DevVersionDialog.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DynDialogEx.cpp">
+      <Filter>dynamic\Parent</Filter>
+    </ClCompile>
+    <ClCompile Include="DynDialogItemEx.cpp">
+      <Filter>dynamic\Parent</Filter>
+    </ClCompile>
+    <ClCompile Include="ListDynDialogEx.cpp">
+      <Filter>dynamic\Parent</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicProgressbarDialog.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DevProgressbarDialog.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DynamicVersionDialog.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\logo_black.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\logo_white.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Traworks_Logo_black.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
